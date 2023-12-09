@@ -1,0 +1,17 @@
+#alert {
+    display: none;
+    position: absolute;
+    margin-top: 20em;
+    margin-left: 20em;
+    text-align: center;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.211);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.alert-title {
+    font-weight: bold;
+    font-size: 25px;
+}
