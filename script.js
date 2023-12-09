@@ -36,7 +36,7 @@ document.getElementById("quiz-form").addEventListener('submit', function(check) 
     } 
 
     var alerte = document.getElementById("alert");
-    if (reponse1 == reponse2 && reponse2 == reponse3 && reponse1 == reponse3) {
+    if (reponse1 == "true" && reponse2 == "true" && reponse1 == "true") {
         alerte.style.display = "block";
     } else {
         alerte.style.display = "none";
